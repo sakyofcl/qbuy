@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>RT-Login | Qbuy.lk</title>
+    <title>Login | Qbuy.lk</title>
     <!----------------------------[ Css Library ]---------------------------->
     @include('/Admin/Component/Link/css')
 </head>
@@ -13,14 +14,14 @@
     <div class="container vh-100">
         <div class="row h-100 justify-content-center align-items-center">
 
-            <div class="col-md-4">    
+            <div class="col-md-4">
                 <div class="card RT-shadow bg-white rounded-0">
                     <div class="card-body">
                         <div class="d-flex justify-content-center p-3 mb-3">
-                            <img src="/assets/img/logo/favicon.png">
+                            <img src="/assets/Backend/img/logo/favicon.png">
                         </div>
                         <form action="admin" method="post">
-                            
+
                             <div class="input-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-user-shield"></i></span>
@@ -62,8 +63,9 @@
     </div>
 
 
-    <!----------------------------[ Javascript Library ]---------------------------->        
+    <!----------------------------[ Javascript Library ]---------------------------->
     @include('/Admin/Component/Link/js')
-    <script src="{{ asset('assets/js/validation/login/login.js')}}"></script>
+    <script src="/assets/Backend/js/validation/login/login.js"></script>
 </body>
+
 </html>
