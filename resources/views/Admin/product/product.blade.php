@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Products | Qbuy.lk</title>
     <!----------------------------[ Css Library ]---------------------------->
-    @include('/Admin/Component/Link/css')
+    @include('/admin/Component/Link/css')
 </head>
 
 
@@ -19,7 +19,7 @@
     <div id="wrapper" class="bg-gray">
 
         <!----------------------------[ Sidebar ]---------------------------->
-        @include('/Admin/Component/Sidebar/RT-Sidebar')
+        @include('/admin/Component/Sidebar/RT-Sidebar')
         <!----------------------------[ End Sidebar ]------------------------>
 
         <div id="content-wrapper" class="d-flex flex-column bg-gray">
@@ -28,13 +28,13 @@
             <div id="content">
 
                 <!----------------------------[ Header ]---------------------------->
-                @include('/Admin/Component/Header/header')
+                @include('/admin/Component/Header/header')
                 <!----------------------------[ End Header ]------------------------>
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    @include('/Admin/Component/breadcrumb')
+                    @include('/admin/Component/breadcrumb')
 
                     <!-- breadcrumb -->
                     <?php
@@ -275,8 +275,8 @@
             <!----------------------------[ End Main Content ]---------------------------->
 
             <!----------------------------[ Footer ]---------------------------->
-            @include('/Admin/Component/Footer/footer')
-            @include('/Admin/Component/popup/product-edit')
+            @include('/admin/Component/Footer/footer')
+            @include('/admin/Component/popup/product-edit')
 
         </div>
     </div>
@@ -289,7 +289,7 @@
     </a>
 
     <!----------------------------[ Javascript Library ]---------------------------->
-    @include('/Admin/Component/Link/js')
+    @include('/admin/Component/Link/js')
 
 </body>
 

@@ -1,25 +1,25 @@
  <!-- Topbar -->
  <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top RT-shadow" id="TopHeader">
-    
-    <!-- Sidebar Toggle (Topbar) -->
-    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-        <i class="fa fa-bars"></i>
-    </button>
 
-    <!--Search -->
-    @include('/Admin/Component/Header/component/search')
+     <!-- Sidebar Toggle (Topbar) -->
+     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+         <i class="fa fa-bars"></i>
+     </button>
 
-    <!-- Topbar Navbar -->
-    <ul class="navbar-nav ml-auto">
+     <!--Search -->
+     @include('/admin/Component/Header/component/search')
 
-        <!-- alerts msg and notification -->
-        @include('/Admin/Component/Header/component/alerts')        
+     <!-- Topbar Navbar -->
+     <ul class="navbar-nav ml-auto">
 
-        <div class="topbar-divider d-none d-sm-block"></div>
+         <!-- alerts msg and notification -->
+         @include('/admin/Component/Header/component/alerts')
 
-        <!-- profile -->
-        @include('/Admin/Component/Header/component/profile')  
-    </ul>
+         <div class="topbar-divider d-none d-sm-block"></div>
 
-</nav>
-<!-- End of Topbar -->
+         <!-- profile -->
+         @include('/admin/Component/Header/component/profile')
+     </ul>
+
+ </nav>
+ <!-- End of Topbar -->

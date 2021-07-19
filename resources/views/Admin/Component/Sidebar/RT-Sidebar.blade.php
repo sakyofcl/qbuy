@@ -1,5 +1,5 @@
-@include('/Admin/Component/Sidebar/Component/SB-Dropdown')
-@include('/Admin/Component/Sidebar/Component/SB-Userdetail')
+@include('/admin/Component/Sidebar/Component/SB-Dropdown')
+@include('/admin/Component/Sidebar/Component/SB-Userdetail')
 
 
 

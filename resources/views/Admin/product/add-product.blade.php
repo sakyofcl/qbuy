@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Add Products | Qbuy.lk</title>
     <!----------------------------[ Css Library ]---------------------------->
-    @include('/Admin/Component/Link/css')
+    @include('/admin/Component/Link/css')
 </head>
 
 
@@ -19,7 +19,7 @@
     <div id="wrapper" class="bg-gray">
 
         <!----------------------------[ Sidebar ]---------------------------->
-        @include('/Admin/Component/Sidebar/RT-Sidebar')
+        @include('/admin/Component/Sidebar/RT-Sidebar')
         <!----------------------------[ End Sidebar ]------------------------>
 
         <div id="content-wrapper" class="d-flex flex-column bg-gray">
@@ -28,14 +28,14 @@
             <div id="content">
 
                 <!----------------------------[ Header ]---------------------------->
-                @include('/Admin/Component/Header/header')
+                @include('/admin/Component/Header/header')
                 <!----------------------------[ End Header ]------------------------>
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    @include('/Admin/Component/breadcrumb')
-                    @include('/Admin/Component/message/alert')
+                    @include('/admin/Component/breadcrumb')
+                    @include('/admin/Component/message/alert')
 
                     <!-- breadcrumb -->
                     <?php
@@ -157,7 +157,7 @@
             <!----------------------------[ End Main Content ]---------------------------->
 
             <!----------------------------[ Footer ]---------------------------->
-            @include('/Admin/Component/Footer/footer')
+            @include('/admin/Component/Footer/footer')
 
         </div>
     </div>
@@ -170,7 +170,7 @@
     </a>
 
     <!----------------------------[ Javascript Library ]---------------------------->
-    @include('/Admin/Component/Link/js')
+    @include('/admin/Component/Link/js')
     <script src="/assets/Backend/js/product/product.js"></script>
     <script src="/assets/Backend/js/product/api.js"></script>
 </body>
